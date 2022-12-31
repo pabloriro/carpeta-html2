@@ -33,3 +33,15 @@ fieldset {
     padding-right: 0;
     border-bottom: 3px solid #3b3b4f;
   }
+
+fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+input, textarea, select {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
